@@ -6,6 +6,7 @@
 
 #link{
     margin: auto 3%;
+    font-family: monospace;
 }
 
 .linkHome{
@@ -22,5 +23,18 @@
 
 #carouselExampleFade{
     text-align: center;
-    margin-top: 7%;
+    margin-top: 9%;
+}
+
+#titleIntroducao{
+    margin-top: 5%;
+    margin-left: 2%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+#introducao{
+    margin-left: 2%;
+    font-family: monospace;
+    font-size: 20pt;
+    margin-top: 2%;
 }
