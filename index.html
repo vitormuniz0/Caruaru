@@ -4,26 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Assets/Css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/Css/geral.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="barraNav">
+<body>  
+    <nav class="navbar navbar-expand-lg " id="navbar">
         <div class="conteiner-fluid">
-            <a href="../Caruaru/index.html" class=" navbar-brand">
-                <img src="./Assets/img/logo.png.png" width="6%" alt="">
-                Caruaru
-            </a>   
-            <ul class="navbar-nav">
-                <li class="nav-item" >
-                    <a class="nav-link" href="">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Pontos Turisticos</a>
-                </li>
+            <ul class="navbar-nav navbar-brand"> 
+            <a href="" class="nav-link" class="" id="linklogo">
+                <img  src="./Assets/img/logo.png" alt="" id="logo">
+                <strong>Caruaru</strong>
+            </a> 
+            <li class="nav-item  linkHome" id="link">
+                <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item" id="link">
+                <a href="" class="nav-link">Pontos Turisticos</a>
+            </li>
+            <li class="nav-item" id="link">
+                <a href="" class="nav-link">Comidas Tipicas</a>
+            </li>
             </ul>
         </div>
-    </nav> 
+    </nav>
+    <div  id="corpo" class="conteiner-fluid">
+        <div class="row ">
+            <div class="col-sm-12 col-md-6 col-lg-6 " >
+            <h1>Conheça Caruaru</h1>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Assets/img/vitalino.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/img/caruaru.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/img/feira.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/img/museu.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -37,6 +73,6 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
