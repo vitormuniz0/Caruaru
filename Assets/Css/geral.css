@@ -5,7 +5,7 @@
 
 
 #link{
-    margin: auto 3%;
+    margin: auto 3%;          /*CSS BARRA NAV*/
     font-family: monospace;
 }
 
@@ -13,11 +13,13 @@
     padding-left: 75%;
 }
 
+/*-------------------------------------------------------------------*/
+
 #corpo{
     background-color: #f1f1f1;
     width: 100%;
     height: 1000px;
-    margin: 0;
+    margin: 0;                                        /*CSS CONTEUDO*/
 }
 
 
@@ -27,7 +29,7 @@
 }
 
 #titleIntroducao{
-    margin-top: 5%;
+    margin-top: 8%;
     margin-left: 2%;
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
@@ -37,4 +39,13 @@
     font-family: monospace;
     font-size: 20pt;
     margin-top: 2%;
+}
+
+body{
+    overflow:hidden ;
+}
+
+#cont1{
+    padding-left: 2%;
+    padding-right: 3%;
 }
