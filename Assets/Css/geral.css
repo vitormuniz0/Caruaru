@@ -3,14 +3,21 @@
     margin-left: 5%;
 }
 
+#conteiner{
+    width:100% ;
+}
 
 #link{
     margin: auto 3%;          /*CSS BARRA NAV*/
     font-family: monospace;
 }
 
-.linkHome{
-    padding-left: 75%;
+#linklogo{
+    padding-right: 10%;
+}
+
+.navbar-toggler{
+    float: right;
 }
 
 /*-------------------------------------------------------------------*/
