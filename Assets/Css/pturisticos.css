@@ -1,0 +1,193 @@
+* {
+    margin: 2;
+}
+
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    overflow-x: hidden;
+
+
+}
+
+.brand-name {
+    color: black;
+}
+
+#logo {
+    width: 40px;
+    margin-right: 5px;
+    margin-top: 1%;
+}
+
+#link {
+    margin: auto 3%;
+    font-family: monospace;
+}
+
+#linklogo {
+    padding-right: 10%;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+/*TEXTOS*/
+#conteiner {
+    width: 17%;
+}
+
+.text-container {
+    font-size: x-large;
+    max-width: 600px;
+    float: inline-end;
+    margin-right: 100px;
+    margin-top: 0px;
+    background-color: rgba(212, 212, 212, 0.281);
+    border-radius: 10px;
+}
+
+.text-container2 {
+    font-size: x-large;
+    max-width: 600px;
+    float: inline-end;
+    margin-right: 100px;
+    margin-top: 20px;
+    background-color: rgba(212, 212, 212, 0.281);
+    border-radius: 10px;
+}
+
+.text-container3 {
+    font-size: x-large;
+    max-width: 600px;
+    float: inline-end;
+    margin-right: 80px;
+    margin-top: 20px;
+    background-color: rgba(212, 212, 212, 0.281);
+    border-radius: 10px;
+}
+
+.text-container4 {
+    font-size: x-large;
+    max-width: 700px;
+    float: inline-end;
+    margin-right: 0px;
+    margin-top: 20px;
+    background-color: rgba(212, 212, 212, 0.281);
+    border-radius: 10px;
+}
+
+/*TITULO*/
+h1 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+.pontos {
+    font-size: 40px;
+    width: 100;
+
+}
+
+/*PONTOS TURISTICOS*/
+
+
+.ponto1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 450px;
+
+}
+
+.ponto2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 130px;
+
+}
+
+.ponto3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 130px;
+}
+
+.ponto4 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 130px;
+
+}
+
+/*IMAGENS*/
+
+.desenho {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.vitalino {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+.feira {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -50px;
+}
+
+.museu {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+
+.caruaru2 {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+
+
+/* Estilos para a seta de rolagem */
+
+.section2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.section3 {
+    padding: 20px;
+    text-align: center;
+}
+
+.section4 {
+    padding: 20px;
+    text-align: center;
+}
