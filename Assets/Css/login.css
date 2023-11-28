@@ -65,7 +65,7 @@ body * {
 
 .card-login > h1 {
     color: rgb(0, 0, 0);
-    font-weight: 800;
+    font-weight: 700;
     margin: 0;
     text-transform: uppercase;
 }
@@ -113,7 +113,7 @@ body * {
     outline: none;
     text-transform: uppercase;
     font-weight: 800;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     color: rgb(0, 0, 0);
     background: rgb(146, 146, 146);
     cursor: pointer;
